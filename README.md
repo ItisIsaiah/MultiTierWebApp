@@ -1,0 +1,2 @@
+# MultiTierWebApp
+ This multitier web application leverages Microsoft Azure for scalable cloud deployment, featuring a frontend built with React, a backend API using Node.js, and Azure SQL Database for data storage. The infrastructure is deployed with Azure App Services, Azure Functions, and Azure Blob Storage for efficient resource management. CI/CD is automated via GitHub Actions for seamless updates and deployment.
