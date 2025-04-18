@@ -1,0 +1,15 @@
+<!DOCTYPE html>  
+<html>  
+  <body>  
+    <h1>Global App Demo</h1>  
+    <button onclick="fetchData()">Load Data</button>  
+    <div id="result"></div>  
+    <script>  
+      async function fetchData() {  
+        const response = await fetch("/api/getData");  
+        const data = await response.json();  
+        document.getElementById("result").innerHTML = data.message;  
+      }  
+    </script>  
+  </body>  
+</html>  
